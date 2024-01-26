@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9907c7dadd7b339c",
+        "id": "dd1f2c66d0c10d80",
         "type": "tabs",
         "children": [
           {
-            "id": "ab1b7d2389b93332",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI & Machine Learning/Evolutionary Algorithms/Regularized Evolution for Image Classifier Architecture Search.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5372695eab9aeea5",
+            "id": "1fd611e521fbfbfd",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -93,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI & Machine Learning/Evolutionary Algorithms/Regularized Evolution for Image Classifier Architecture Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI & Machine Learning/Evolutionary Algorithms/Regularized Evolution for Image Classifier Architecture Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "AI & Machine Learning/Evolutionary Algorithms/Regularized Evolution for Image Classifier Architecture Search.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -153,15 +137,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab1b7d2389b93332",
+  "active": "1fd611e521fbfbfd",
   "lastOpenFiles": [
-    "Regularized Evolution for Image Classifier Architecture Search.pdf",
-    "Software Engineering/Golang/Writing a TSDB.md",
+    "AI & Machine Learning/Natural Language Processing/Transformers.md",
+    "AI & Machine Learning/Natural Language Processing/Word Embedding and work2vec.md",
+    "AI & Machine Learning/Neural Network Optimization.md",
+    "AI & Machine Learning/Differential and Adaptive Learning Rates.md",
+    "AI & Machine Learning/Batch Normalization.md",
     "AI & Machine Learning/Evolutionary Algorithms/Regularized Evolution for Image Classifier Architecture Search.md",
-    "Software Engineering/Golang",
-    "Software Engineering",
-    "AI & Machine Learning/Evolutionary Algorithms",
-    "AI & Machine Learning",
+    "AI & Machine Learning/Evolutionary Algorithms/Progressive Neural Architecture Search.md",
+    "Assets/Progressive Neural Architecture Search.pdf",
+    "Assets/Attention is all you need.pdf",
+    "Assets/attention_score.webp",
+    "Assets/attention_block.webp",
+    "Assets/transformer2.webp",
+    "Assets/transformers.webp",
+    "AI & Machine Learning/Natural Language Processing",
+    "Assets/transferlearning.webp",
+    "Assets/How Does Batch Normalization Help Optimization.pdf",
+    "Assets/batch_norm_loss_2.webp",
+    "Assets/batch_norm_loss_1.webp",
+    "Assets/batch_norm_cov_shift.webp",
+    "Assets/Batch Normalization-Accelerating Deep Network Training by Reducing Internal Covariate Shift.pdf",
+    "Assets/batch_norm 1.webp",
+    "Assets/batch_norm.webp",
+    "Software Engineering/Golang/Writing a TSDB.md",
+    "Assets/Regularized Evolution for Image Classifier Architecture Search.pdf",
+    "Assets/Regularized Evolution for Image Classifier Architecture Search 1.pdf",
+    "Assets",
+    "AI & Machine Learning/Evolutionary Algorithms/Assets/Regularized Evolution for Image Classifier Architecture Search.pdf",
+    "AI & Machine Learning/Evolutionary Algorithms/Assets",
     "2023-11-23.md",
     "some file!.md",
     "Untitled 2.canvas",

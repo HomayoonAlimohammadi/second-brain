@@ -1,5 +1,8 @@
 #evolutionary #evolugionary_algorithms #classification #deep_learning #architecture_search #image_classification #ai #machine_learning
 
+### Related:
+[[Progressive Neural Architecture Search]]
+
 ## Highlights:
 - **Aging Evolution** can only improve a population through the inheritance of architectures that re-train well. (In contrast, NAE can improve a population by accumulating architectures/models that were lucky when they trained the first time). That is, AE is forced to pay attention to architectures rather than models. In other words, the addition of aging involves introducing additional information to the evolutionary process: architectures should re-train well. This additional information prevents overfitting to the training noise, which makes it a form of regularization in the broader mathematical sense.
 - The mutation probabilities could be **learned** to improve speed

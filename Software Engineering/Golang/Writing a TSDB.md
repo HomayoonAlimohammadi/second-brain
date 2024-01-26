@@ -54,3 +54,5 @@ optimizations:
 	- this prevents memory spikes as well
 	
 
+## Video Link:
+https://www.youtube.com/watch?v=NdjuW98ep_w&ab_channel=GopherConEurope
