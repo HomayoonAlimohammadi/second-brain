@@ -11,14 +11,21 @@
       "query": "tag: #ai ",
       "color": {
         "a": 1,
-        "rgb": 5429216
+        "rgb": 14632967
+      }
+    },
+    {
+      "query": "tag: #grpc",
+      "color": {
+        "a": 1,
+        "rgb": 4359668
       }
     },
     {
       "query": "tag: #software_engineering  ",
       "color": {
         "a": 1,
-        "rgb": 14701269
+        "rgb": 4359668
       }
     }
   ],
