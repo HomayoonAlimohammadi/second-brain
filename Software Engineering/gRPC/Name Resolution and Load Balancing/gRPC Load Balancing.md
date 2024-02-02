@@ -26,7 +26,7 @@ https://grpc.io/blog/grpc-load-balancing/ (makdharma - Google - 2017)
       ![[grpclb-2.png]]
       
       #### Proxy or Client side?
-| Proxy | Client Side |  |
+| Proxy | Client Side | Server Side |
 | ---- | ---- | ---- |
 | Pros | - Simple client<br>- No client-side awareness of backend<br>- Works with untrusted clients | - High performance because elimination of extra hop |
 | Cons | - LB is in the data path<br>- Higher latency<br>- LB throughput may limit scalability | - Complex client<br>- Client keeps track of server load and health<br>- Client implements load balancing algorithm<br>- Per-language implementation and maintenance burden<br>- Client needs to be trusted, or the trust boundary needs to be handled by a lookaside LB. |

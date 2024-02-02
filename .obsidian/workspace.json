@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Load Balancing on Kubernetes without Tears.md",
+                "file": "Software Engineering/Graceful Shutdown and Zero-Downtime updates in Kubernetes.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "connectivity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Load Balancing on Kubernetes without Tears.md",
+                "file": "Software Engineering/Graceful Shutdown and Zero-Downtime updates in Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Load Balancing on Kubernetes without Tears.md",
+                "file": "Software Engineering/Graceful Shutdown and Zero-Downtime updates in Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Load Balancing on Kubernetes without Tears.md"
+                "file": "Software Engineering/Graceful Shutdown and Zero-Downtime updates in Kubernetes.md"
               }
             }
           }
@@ -145,16 +145,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8bffd8baea65eff",
+  "active": "c9ecdf40c07c6924",
   "lastOpenFiles": [
-    "Assets/grpclb-linkerd.png",
-    "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Load Balancing.md",
-    "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Load Balancing on Kubernetes without Tears.md",
+    "Software Engineering/gRPC/Name Resolution and Load Balancing/Service Config in gRPC.md",
+    "Software Engineering/gRPC/Name Resolution and Load Balancing/Name Resolution and Load Balancing in gRPC.md",
+    "Software Engineering/gRPC/Name Resolution and Load Balancing/Load Balancing in gRPC.md",
     "Software Engineering/gRPC/Name Resolution and Load Balancing/Load balancing and scaling long-lived connections in Kubernetes.md",
+    "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Load Balancing on Kubernetes without Tears.md",
+    "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Load Balancing.md",
+    "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Connectivity Semantics and API.md",
+    "Software Engineering/gRPC/Name Resolution and Load Balancing/Balancing gRPC Traffic in K8S Without a Service Mesh.md",
+    "Software Engineering/Graceful Shutdown and Zero-Downtime updates in Kubernetes.md",
+    "Assets/Screenshot 2024-02-02 at 3.18.48 in the afternoon.png",
+    "Assets/Screenshot 2024-02-02 at 3.18.44 in the afternoon.png",
+    "Assets/Screenshot 2024-02-02 at 3.18.21 in the afternoon.png",
+    "Assets/grpclb-gpt4-connection-state-machine.png",
+    "Assets/grpclb-flow.png",
+    "Assets/grpclb-flow.png.sb-917df04c-I7G1bj",
+    "Assets/grpclb-headless.webp",
+    "Assets/grpclb-clusterIP.webp",
+    "Assets/grpclb-linkerd.png",
     "Assets/grpclb-iptables.svg",
     "Assets/grpclb-3.png",
-    "Assets/grpclb-2.png",
-    "Assets/grpclb-1.png",
     "AI & Machine Learning/Differential and Adaptive Learning Rates.md",
     "Software Engineering/gRPC/Name Resolution and Load Balancing",
     "AI & Machine Learning/Evolutionary Algorithms/Regularized Evolution for Image Classifier Architecture Search.md",
@@ -167,18 +179,11 @@
     "AI & Machine Learning/Batch Normalization.md",
     "Assets/Progressive Neural Architecture Search.pdf",
     "Assets/Attention is all you need.pdf",
-    "Assets/attention_score.webp",
-    "Assets/attention_block.webp",
-    "Assets/transformer2.webp",
-    "Assets/transformers.webp",
     "AI & Machine Learning/Natural Language Processing",
-    "Assets/transferlearning.webp",
     "Assets/How Does Batch Normalization Help Optimization.pdf",
-    "Assets/batch_norm_loss_2.webp",
     "Assets/Batch Normalization-Accelerating Deep Network Training by Reducing Internal Covariate Shift.pdf",
     "Assets/Regularized Evolution for Image Classifier Architecture Search.pdf",
     "Assets/Regularized Evolution for Image Classifier Architecture Search 1.pdf",
-    "Assets",
     "2023-11-23.md",
     "some file!.md",
     "Untitled 2.canvas",
