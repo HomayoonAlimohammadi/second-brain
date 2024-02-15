@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI & Machine Learning/Natural Language Processing/Attention Is All You Need.md",
+                "file": "Software Engineering/Golang/Advanced Go Concurrency Patterns.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI & Machine Learning/Natural Language Processing/Attention Is All You Need.md",
+                "file": "Software Engineering/Golang/Advanced Go Concurrency Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI & Machine Learning/Natural Language Processing/Attention Is All You Need.md",
+                "file": "Software Engineering/Golang/Advanced Go Concurrency Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI & Machine Learning/Natural Language Processing/Attention Is All You Need.md"
+                "file": "Software Engineering/Golang/Advanced Go Concurrency Patterns.md"
               }
             }
           }
@@ -147,11 +147,20 @@
   },
   "active": "e556dd5db7fc2327",
   "lastOpenFiles": [
+    "Software Engineering/Golang/Go Concurrency Patterns.md",
+    "Software Engineering/Golang/Advanced Go Concurrency Patterns.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Assets/Screenshot 2024-02-14 at 6.40.20 in the evening.png",
+    "Assets/Screenshot 2024-02-14 at 6.38.22 in the evening 1.png",
+    "Assets/Screenshot 2024-02-14 at 6.38.22 in the evening.png",
+    "Assets/Screenshot 2024-02-14 at 6.27.02 in the evening.png",
+    "Software Engineering/Graceful Shutdown and Zero-Downtime updates in Kubernetes.md",
+    "AI & Machine Learning/Natural Language Processing/Attention Is All You Need.md",
     "Assets/Screenshot 2024-02-10 at 10.18.15 in the morning.png",
     "Assets/Screenshot 2024-02-10 at 10.17.54 in the morning.png",
     "Assets/Screenshot 2024-02-10 at 10.17.37 in the morning.png",
     "Assets/Attention is all you need 1.pdf",
-    "AI & Machine Learning/Natural Language Processing/Attention Is All You Need.md",
     "AI & Machine Learning/Evolutionary Algorithms/Neural Architecture Optimization.md",
     "Assets/Screenshot 2024-02-07 at 8.05.14 in the morning.png",
     "Assets/Screenshot 2024-02-07 at 8.06.21 in the morning.png",
@@ -160,7 +169,6 @@
     "Software Engineering/Golang/Context Package Internals.md",
     "Software Engineering/gRPC/Name Resolution and Load Balancing/Service Config in gRPC.md",
     "AI & Machine Learning/Natural Language Processing/Transformers.md",
-    "Software Engineering/Graceful Shutdown and Zero-Downtime updates in Kubernetes.md",
     "Software Engineering/gRPC/Name Resolution and Load Balancing/Name Resolution and Load Balancing in gRPC.md",
     "Software Engineering/gRPC/Name Resolution and Load Balancing/Load Balancing in gRPC.md",
     "Software Engineering/gRPC/Name Resolution and Load Balancing/Load balancing and scaling long-lived connections in Kubernetes.md",
@@ -168,11 +176,6 @@
     "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Load Balancing.md",
     "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Connectivity Semantics and API.md",
     "Software Engineering/gRPC/Name Resolution and Load Balancing/Balancing gRPC Traffic in K8S Without a Service Mesh.md",
-    "Assets/Screenshot 2024-02-02 at 3.18.48 in the afternoon.png",
-    "Assets/Screenshot 2024-02-02 at 3.18.44 in the afternoon.png",
-    "Assets/Screenshot 2024-02-02 at 3.18.21 in the afternoon.png",
-    "Assets/grpclb-gpt4-connection-state-machine.png",
-    "Assets/grpclb-flow.png",
     "Assets/grpclb-flow.png.sb-917df04c-I7G1bj",
     "AI & Machine Learning/Differential and Adaptive Learning Rates.md",
     "Software Engineering/gRPC/Name Resolution and Load Balancing",
