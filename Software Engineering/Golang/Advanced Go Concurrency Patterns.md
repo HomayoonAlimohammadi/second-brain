@@ -5,6 +5,7 @@
 
 ### References:
 https://www.youtube.com/watch?v=QDDwwePbDtw&t=1537s&ab_channel=GoogleforDevelopers
+https://go.dev/blog/pipelines
 
 ## Naive Implementation
 - In the talk he first implemented a naive rss subscriber with the following loop:
@@ -127,3 +128,13 @@ case result := <-fetchDone:
 	// use result...
 }
 ```
+
+# Goroutine Leaks
+In order to prevent goroutine leaks we can use different things:
+* context (cancel, timeout, ...)
+* done channels (signaling the termination)
+* time.After channel
+
+### Sources:
+* https://medium.com/codezillas/golang-leaky-goroutines-and-how-to-clean-them-30b505417028
+* https://medium.com/@matryer/stopping-goroutines-golang-1bf28799c1cb
