@@ -8,37 +8,30 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag: #ai ",
+      "query": "tag:#ai  ",
       "color": {
         "a": 1,
-        "rgb": 14632967
+        "rgb": 14048348
       }
     },
     {
-      "query": "tag: #grpc",
+      "query": "tag:#software_engineering  ",
       "color": {
         "a": 1,
-        "rgb": 4359668
-      }
-    },
-    {
-      "query": "tag: #software_engineering  ",
-      "color": {
-        "a": 1,
-        "rgb": 4359668
+        "rgb": 6082262
       }
     }
   ],
   "collapse-display": false,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.64692323314379,
-  "lineSizeMultiplier": 3.28456877877065,
+  "nodeSizeMultiplier": 1.38951733008394,
+  "lineSizeMultiplier": 2.16687652315191,
   "collapse-forces": false,
-  "centerStrength": 0.48747630652586,
-  "repelStrength": 14.9911995667479,
+  "centerStrength": 0.349038721906309,
+  "repelStrength": 8.51678851881939,
   "linkStrength": 1,
-  "linkDistance": 200,
-  "scale": 0.8494810646102001,
+  "linkDistance": 193,
+  "scale": 0.913429717066433,
   "close": true
 }

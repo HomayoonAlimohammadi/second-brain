@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "9f9a8664339a225c",
+        "id": "d794f9c907bd3c48",
         "type": "tabs",
         "children": [
           {
-            "id": "b8d7441029ce44f1",
+            "id": "d8bf2f50c36e989d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering/Golang/Advanced Go Concurrency Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9198b156b3760c63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering/Golang/Go Concurrency Patterns Pipelines and Cancellation.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag: #concurrency  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Golang/Go Concurrency Patterns Pipelines and Cancellation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Golang/Go Concurrency Patterns Pipelines and Cancellation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Software Engineering/Golang/Go Concurrency Patterns Pipelines and Cancellation.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,29 +138,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9198b156b3760c63",
+  "active": "d8bf2f50c36e989d",
   "lastOpenFiles": [
     "Software Engineering/Golang/Go Concurrency Patterns.md",
     "Software Engineering/Golang/Go Concurrency Patterns Pipelines and Cancellation.md",
-    "Software Engineering/Golang/High-performance JSON parsing.md",
     "Software Engineering/Golang/Data Races.md",
+    "Software Engineering/Golang/Advanced Go Concurrency Patterns.md",
+    "Software Engineering/Golang/Reflection.md",
+    "Software Engineering/Golang/Context control in Go.md",
     "Software Engineering/Golang/Context Package Internals.md",
+    "Software Engineering/Golang/Error Handling in Go.md",
+    "Software Engineering/Golang/Slices in Go.md",
+    "Software Engineering/Golang/Robust generic functions on slices.md",
+    "Assets/Screenshot 2024-02-26 at 6.02.32 in the evening.png",
+    "Assets/Screenshot 2024-02-26 at 6.02.39 in the evening.png",
+    "Assets/Screenshot 2024-02-26 at 6.02.22 in the evening.png",
+    "Software Engineering/Graceful Shutdown and Zero-Downtime updates in Kubernetes.md",
+    "Software Engineering/Golang/Writing HTTP Go servers.md",
+    "Software Engineering/Golang/Writing a TSDB.md",
+    "Software Engineering/Golang/Routing in Golang HTTP servers.md",
+    "Software Engineering/Golang/Postgres with Go.md",
+    "Software Engineering/Golang/Packages (Internal and Canonical).md",
+    "Software Engineering/Golang/High-performance JSON parsing.md",
     "Assets/Screenshot 2024-02-23 at 8.51.09 in the evening.png",
     "Assets/Screenshot 2024-02-23 at 8.50.50 in the evening.png",
     "Assets/Screenshot 2024-02-23 at 8.50.40 in the evening.png",
-    "Software Engineering/Golang/Advanced Go Concurrency Patterns.md",
-    "Software Engineering/Golang/Postgres with Go.md",
     "Untitled 1.md",
     "Untitled.md",
     "Assets/Screenshot 2024-02-14 at 6.40.20 in the evening.png",
     "Assets/Screenshot 2024-02-14 at 6.38.22 in the evening 1.png",
     "Assets/Screenshot 2024-02-14 at 6.38.22 in the evening.png",
     "Assets/Screenshot 2024-02-14 at 6.27.02 in the evening.png",
-    "Software Engineering/Graceful Shutdown and Zero-Downtime updates in Kubernetes.md",
     "AI & Machine Learning/Natural Language Processing/Attention Is All You Need.md",
-    "Assets/Screenshot 2024-02-10 at 10.18.15 in the morning.png",
-    "Assets/Screenshot 2024-02-10 at 10.17.54 in the morning.png",
-    "Assets/Screenshot 2024-02-10 at 10.17.37 in the morning.png",
     "Assets/Attention is all you need 1.pdf",
     "AI & Machine Learning/Evolutionary Algorithms/Neural Architecture Optimization.md",
     "Assets/Neural Architecture Optimization.pdf",
@@ -190,18 +178,9 @@
     "Software Engineering/gRPC/Name Resolution and Load Balancing/Name Resolution and Load Balancing in gRPC.md",
     "Software Engineering/gRPC/Name Resolution and Load Balancing/Load Balancing in gRPC.md",
     "Software Engineering/gRPC/Name Resolution and Load Balancing/Load balancing and scaling long-lived connections in Kubernetes.md",
-    "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Load Balancing on Kubernetes without Tears.md",
-    "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Load Balancing.md",
-    "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Connectivity Semantics and API.md",
-    "Software Engineering/gRPC/Name Resolution and Load Balancing/Balancing gRPC Traffic in K8S Without a Service Mesh.md",
     "Assets/grpclb-flow.png.sb-917df04c-I7G1bj",
-    "AI & Machine Learning/Differential and Adaptive Learning Rates.md",
     "Software Engineering/gRPC/Name Resolution and Load Balancing",
-    "AI & Machine Learning/Evolutionary Algorithms/Regularized Evolution for Image Classifier Architecture Search.md",
-    "AI & Machine Learning/Evolutionary Algorithms/Progressive Neural Architecture Search.md",
-    "AI & Machine Learning/Natural Language Processing/Word Embedding and work2vec.md",
     "Software Engineering/gRPC",
-    "Software Engineering/Golang/Writing a TSDB.md",
     "Assets/Progressive Neural Architecture Search.pdf",
     "Assets/Attention is all you need.pdf",
     "AI & Machine Learning/Natural Language Processing",

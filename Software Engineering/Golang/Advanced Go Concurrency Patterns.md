@@ -6,6 +6,7 @@
 ### References:
 https://www.youtube.com/watch?v=QDDwwePbDtw&t=1537s&ab_channel=GoogleforDevelopers
 https://go.dev/blog/pipelines
+https://encore.dev/blog/advanced-go-concurrency
 
 ## Naive Implementation
 - In the talk he first implemented a naive rss subscriber with the following loop:
@@ -138,3 +139,57 @@ In order to prevent goroutine leaks we can use different things:
 ### Sources:
 * https://medium.com/codezillas/golang-leaky-goroutines-and-how-to-clean-them-30b505417028
 * https://medium.com/@matryer/stopping-goroutines-golang-1bf28799c1cb
+
+### Advanced Go Concurrency
+
+This blog post delves into higher-level concurrency primitives in Go, beyond the basic `go` keyword, channels, and `sync` packages. It focuses on the "extended standard library" at `golang.org/x/sync`, providing advanced tools for building concurrent applications.
+
+#### Key Highlights:
+- **Singleflight Package**: Avoids duplicate function calls, beneficial for expensive or slow operations like database queries or network requests. It ensures that only one request proceeds and shares the result with concurrent callers, reducing unnecessary workload.
+  ```go
+  var group singleflight.Group
+  result, err, _ := group.Do(key, func() (interface{}, error) {
+      // expensive operation here
+  })
+  ```
+- **Errgroup Package**: Extends `sync.WaitGroup` to handle errors from concurrent operations. It's useful for performing multiple operations and collecting any errors that occur.
+  ```go
+  var g errgroup.Group
+  g.Go(func() error {
+      // operation that may return error
+  })
+  if err := g.Wait(); err != nil {
+      // handle error
+  }
+  ```
+- **Bounded Concurrency**: To prevent launching too many goroutines concurrently, which can exhaust system resources, bounded concurrency controls the maximum number of goroutines running in parallel.
+  - **Implementation with Channels**: A channel can act as a semaphore to limit concurrency.
+    ```go
+    sem := make(chan struct{}, 10) // limit to 10 concurrent goroutines
+    ```
+  - **Usage**: Before starting a goroutine, send to the semaphore. Once the goroutine completes, receive from the semaphore.
+    ```go
+    sem <- struct{}{} // block if full
+    go func() {
+        defer func() { <-sem }()
+        // operation
+    }()
+    ```
+- **Weighted Bounded Concurrency**: For tasks with varying resource demands, a weighted semaphore allows specifying "cost" for each task, providing finer control over resource allocation.
+  - **Implementation with golang.org/x/sync/semaphore**: This package offers a weighted semaphore for advanced concurrency control.
+    ```go
+    sem := semaphore.NewWeighted(100) // total weight
+    sem.Acquire(ctx, cost) // acquire before starting a task
+    sem.Release(cost) // release after completing
+    ```
+  
+#### Practical Examples:
+- The `singleflight` package is exemplified through a scenario where multiple requests for the same data (e.g., weather information) trigger only one database query.
+- The `errgroup` package is demonstrated by concurrently fetching weather data for multiple cities and handling any errors that arise.
+- Bounded concurrency examples control the number of goroutines fetching weather data, ensuring not to overwhelm resources.
+- Weighted bounded concurrency adjusts concurrency limits based on task demands, illustrated by varying costs associated with city name lengths in weather data fetching.
+
+#### Conclusion:
+The blog post showcases how Go's concurrency model, augmented by the extended standard library, provides powerful, efficient, and manageable concurrency patterns. From preventing redundant operations with `singleflight` to managing complex, error-prone concurrent operations with `errgroup`, and controlling goroutine execution with bounded concurrency, Go offers sophisticated tools for modern concurrent application development.
+
+For more detailed explanations, code examples, and best practices, refer to the full blog post on [Encore's blog](https://encore.dev/blog/advanced-go-concurrency).
