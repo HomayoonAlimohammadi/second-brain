@@ -1,3 +1,4 @@
+#golang #software_engineering #security
 ## References
 https://go.dev/blog/chacha8rand
 #### Introduction

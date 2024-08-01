@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d794f9c907bd3c48",
+        "id": "c6b66d3d55521357",
         "type": "tabs",
         "children": [
           {
-            "id": "d8bf2f50c36e989d",
+            "id": "740e38c50cae3d6b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering/Golang/Secure Randomness in Go 1.22.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Golang/Secure Randomness in Go 1.22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Golang/Secure Randomness in Go 1.22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Software Engineering/Golang/Secure Randomness in Go 1.22.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,9 +138,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d8bf2f50c36e989d",
+  "active": "740e38c50cae3d6b",
   "lastOpenFiles": [
     "Software Engineering/Golang/Secure Randomness in Go 1.22.md",
+    "Software Engineering/Golang/Robust generic functions on slices.md",
+    "Software Engineering/Kubernetes/Mastering Kubernetes networking - A journey in cloud-native packet management.md",
+    "Assets/kubernetes-networking/ingress-to-application.webp",
+    "Assets/kubernetes-networking/ingress-to-application.webp.crdownload",
+    "Assets/kubernetes-networking/user-to-ingress.webp",
+    "Assets/kubernetes-networking/user-to-ingress.webp.crdownload",
+    "Assets/kubernetes-networking/voting-app-architecture-w-ingress.webp",
+    "Assets/kubernetes-networking/ingress.webp",
+    "Assets/kubernetes-networking/ingress.webp.crdownload",
+    "Assets/kubernetes-networking/loadbalancer.webp",
+    "Assets/kubernetes-networking/loadbalancer.webp.crdownload",
+    "Assets/kubernetes-networking/nodeport.webp",
+    "Assets/kubernetes-networking/nodeport.webp.crdownload",
+    "Assets/kubernetes-networking/svc.webp",
+    "Assets/kubernetes-networking/svc.webp.crdownload",
+    "Software Engineering/gRPC/Name Resolution and Load Balancing/Name Resolution and Load Balancing in gRPC.md",
+    "Software Engineering/gRPC/Name Resolution and Load Balancing/Service Config in gRPC.md",
+    "Assets/kubernetes-networking/pod-overlay.webp",
+    "Software Engineering/gRPC/Name Resolution and Load Balancing/gRPC Load Balancing.md",
+    "Assets/kubernetes-networking/pod-overlay.webp.crdownload",
+    "Assets/kubernetes-networking",
+    "Software Engineering/gRPC/Name Resolution and Load Balancing/Balancing gRPC Traffic in K8S Without a Service Mesh.md",
+    "Software Engineering/Kubernetes",
     "Software Engineering/Golang/Go Concurrency Patterns.md",
     "Software Engineering/Golang/Go Concurrency Patterns Pipelines and Cancellation.md",
     "Software Engineering/Golang/Data Races.md",
@@ -158,10 +173,8 @@
     "Software Engineering/Golang/Context Package Internals.md",
     "Software Engineering/Golang/Error Handling in Go.md",
     "Software Engineering/Golang/Slices in Go.md",
-    "Software Engineering/Golang/Robust generic functions on slices.md",
     "Assets/Screenshot 2024-02-26 at 6.02.32 in the evening.png",
     "Assets/Screenshot 2024-02-26 at 6.02.39 in the evening.png",
-    "Assets/Screenshot 2024-02-26 at 6.02.22 in the evening.png",
     "Software Engineering/Graceful Shutdown and Zero-Downtime updates in Kubernetes.md",
     "Software Engineering/Golang/Writing HTTP Go servers.md",
     "Software Engineering/Golang/Writing a TSDB.md",
@@ -169,31 +182,9 @@
     "Software Engineering/Golang/Postgres with Go.md",
     "Software Engineering/Golang/Packages (Internal and Canonical).md",
     "Software Engineering/Golang/High-performance JSON parsing.md",
-    "Assets/Screenshot 2024-02-23 at 8.51.09 in the evening.png",
-    "Assets/Screenshot 2024-02-23 at 8.50.50 in the evening.png",
-    "Assets/Screenshot 2024-02-23 at 8.50.40 in the evening.png",
     "Untitled 1.md",
     "Untitled.md",
-    "Assets/Screenshot 2024-02-14 at 6.40.20 in the evening.png",
-    "Assets/Screenshot 2024-02-14 at 6.38.22 in the evening 1.png",
-    "Assets/Screenshot 2024-02-14 at 6.38.22 in the evening.png",
-    "Assets/Screenshot 2024-02-14 at 6.27.02 in the evening.png",
-    "AI & Machine Learning/Natural Language Processing/Attention Is All You Need.md",
     "Assets/Attention is all you need 1.pdf",
-    "AI & Machine Learning/Evolutionary Algorithms/Neural Architecture Optimization.md",
-    "Assets/Neural Architecture Optimization.pdf",
-    "Software Engineering/gRPC/Name Resolution and Load Balancing/Service Config in gRPC.md",
-    "AI & Machine Learning/Natural Language Processing/Transformers.md",
-    "Software Engineering/gRPC/Name Resolution and Load Balancing/Name Resolution and Load Balancing in gRPC.md",
-    "Software Engineering/gRPC/Name Resolution and Load Balancing/Load Balancing in gRPC.md",
-    "Assets/grpclb-flow.png.sb-917df04c-I7G1bj",
-    "Software Engineering/gRPC/Name Resolution and Load Balancing",
-    "Software Engineering/gRPC",
-    "Assets/Progressive Neural Architecture Search.pdf",
-    "Assets/Attention is all you need.pdf",
-    "AI & Machine Learning/Natural Language Processing",
-    "Assets/How Does Batch Normalization Help Optimization.pdf",
-    "Assets/Batch Normalization-Accelerating Deep Network Training by Reducing Internal Covariate Shift.pdf",
     "Untitled 2.canvas",
     "Untitled.canvas",
     "Untitled 3.canvas",
