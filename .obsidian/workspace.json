@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Kubernetes/Docker Containers vs Kubernetes Pods.md",
+                "file": "Software Engineering/Kubernetes/Internals/API Server.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "API Server"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +53,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #concurrency  ",
+                "query": "garbage",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Kubernetes/Docker Containers vs Kubernetes Pods.md",
+                "file": "Software Engineering/Kubernetes/Internals/API Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for API Server"
             }
           },
           {
@@ -102,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Kubernetes/Docker Containers vs Kubernetes Pods.md",
+                "file": "Software Engineering/Kubernetes/Internals/API Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from API Server"
             }
           },
           {
@@ -115,8 +128,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Kubernetes/Docker Containers vs Kubernetes Pods.md"
-              }
+                "file": "Software Engineering/Kubernetes/Internals/API Server.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of API Server"
             }
           }
         ]
@@ -148,10 +170,18 @@
   },
   "active": "740e38c50cae3d6b",
   "lastOpenFiles": [
+    "Software Engineering/Kubernetes/Static pods.md",
+    "Software Engineering/Kubernetes/Internals/API Server.md",
+    "Software Engineering/Kubernetes/Internals/Kubectl.md",
+    "Software Engineering/Kubernetes/Mastering Kubernetes networking - A journey in cloud-native packet management.md",
+    "Software Engineering/Kubernetes/Internals",
+    "Software Engineering/Golang/Robust generic functions on slices.md",
+    "Software Engineering/Golang/Go sync.Mutex Normal and Starvation Mode.md",
+    "Software Engineering/Golang/Data Races.md",
+    "Software Engineering/Golang/Error Handling in Go.md",
+    "Software Engineering/Golang/Context Package Internals.md",
     "Software Engineering/Kubernetes/Docker Containers vs Kubernetes Pods.md",
     "Software Engineering/Golang/Secure Randomness in Go 1.22.md",
-    "Software Engineering/Golang/Robust generic functions on slices.md",
-    "Software Engineering/Kubernetes/Mastering Kubernetes networking - A journey in cloud-native packet management.md",
     "Assets/kubernetes-networking/ingress-to-application.webp",
     "Assets/kubernetes-networking/ingress-to-application.webp.crdownload",
     "Assets/kubernetes-networking/user-to-ingress.webp",
@@ -175,12 +205,9 @@
     "Software Engineering/Kubernetes",
     "Software Engineering/Golang/Go Concurrency Patterns.md",
     "Software Engineering/Golang/Go Concurrency Patterns Pipelines and Cancellation.md",
-    "Software Engineering/Golang/Data Races.md",
     "Software Engineering/Golang/Advanced Go Concurrency Patterns.md",
     "Software Engineering/Golang/Reflection.md",
     "Software Engineering/Golang/Context control in Go.md",
-    "Software Engineering/Golang/Context Package Internals.md",
-    "Software Engineering/Golang/Error Handling in Go.md",
     "Software Engineering/Golang/Slices in Go.md",
     "Assets/Screenshot 2024-02-26 at 6.02.32 in the evening.png",
     "Assets/Screenshot 2024-02-26 at 6.02.39 in the evening.png",
@@ -189,11 +216,6 @@
     "Software Engineering/Golang/Writing a TSDB.md",
     "Software Engineering/Golang/Routing in Golang HTTP servers.md",
     "Software Engineering/Golang/Postgres with Go.md",
-    "Software Engineering/Golang/Packages (Internal and Canonical).md",
-    "Software Engineering/Golang/High-performance JSON parsing.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "Assets/Attention is all you need 1.pdf",
     "Untitled 2.canvas",
     "Untitled.canvas",
     "Untitled 3.canvas",
